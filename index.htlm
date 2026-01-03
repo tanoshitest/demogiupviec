@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saitama Clean - Dịch Vụ Dọn Dẹp Chuyên Nghiệp</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Noto Sans JP', sans-serif; }
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1581578731117-104f2a41272c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <span class="text-blue-600 text-2xl font-bold"><i class="fas fa-broom mr-2"></i>Saitama Clean</span>
+                </div>
+                <div class="hidden md:flex space-x-8 text-sm font-medium">
+                    <a href="#services" class="hover:text-blue-600 transition">Dịch Vụ</a>
+                    <a href="#pricing" class="hover:text-blue-600 transition">Bảng Giá</a>
+                    <a href="#area" class="hover:text-blue-600 transition">Khu Vực</a>
+                    <a href="#contact" class="px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">Đặt Lịch Ngay</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-bg h-screen flex items-center justify-center text-white text-center px-4">
+        <div>
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">Nhà Sạch - Tâm An</h1>
+            <p class="text-lg md:text-xl mb-8">Dịch vụ dọn dẹp chuyên nghiệp, uy tín hàng đầu tại Saitama.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#pricing" class="px-8 py-3 bg-white text-blue-600 font-bold rounded-full hover:bg-gray-100 transition">Xem Bảng Giá</a>
+                <a href="#contact" class="px-8 py-3 bg-green-500 text-white font-bold rounded-full hover:bg-green-600 transition"><i class="fab fa-line mr-2"></i>Liên hệ qua LINE</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-12 text-gray-800">Tại sao chọn chúng tôi?</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-6">
+                    <div class="text-blue-600 text-4xl mb-4"><i class="fas fa-check-circle"></i></div>
+                    <h3 class="text-xl font-bold mb-2">Tiêu Chuẩn Nhật Bản</h3>
+                    <p class="text-gray-600">Quy trình làm sạch tỉ mỉ, tuân thủ nghiêm ngặt các tiêu chuẩn vệ sinh và an toàn của Nhật Bản.</p>
+                </div>
+                <div class="p-6">
+                    <div class="text-blue-600 text-4xl mb-4"><i class="fas fa-yen-sign"></i></div>
+                    <h3 class="text-xl font-bold mb-2">Giá Cả Minh Bạch</h3>
+                    <p class="text-gray-600">Không phí ẩn. Báo giá trọn gói trước khi làm. Thanh toán linh hoạt (Tiền mặt/PayPay).</p>
+                </div>
+                <div class="p-6">
+                    <div class="text-blue-600 text-4xl mb-4"><i class="fas fa-clock"></i></div>
+                    <h3 class="text-xl font-bold mb-2">Linh Hoạt Thời Gian</h3>
+                    <p class="text-gray-600">Hỗ trợ dọn dẹp cả cuối tuần và ngày lễ. Đặt lịch nhanh chóng qua LINE hoặc điện thoại.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800">Dịch Vụ Cung Cấp</h2>
+                <p class="text-gray-600 mt-2">Giải pháp toàn diện cho ngôi nhà của bạn</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                    <div class="h-48 bg-gray-200 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1527512860163-5e849bb6d185?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');"></div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Dọn Dẹp Định Kỳ</h3>
+                        <p class="text-gray-600 text-sm">Hút bụi, lau sàn, vệ sinh bếp, toilet, nhà tắm. Giữ nhà luôn sạch sẽ hàng tuần/tháng.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                    <div class="h-48 bg-gray-200 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1584622050111-993a426fbf0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');"></div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Tổng Vệ Sinh (Deep Clean)</h3>
+                        <p class="text-gray-600 text-sm">Dọn nhà đón tết, tổng vệ sinh cuối năm. Làm sạch sâu mọi ngóc ngách, cửa kính, ban công.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                    <div class="h-48 bg-gray-200 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');"></div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Dọn Nhà Chuyển Đi/Đến</h3>
+                        <p class="text-gray-600 text-sm">Vệ sinh trả nhà (Hikkomoshi) hoặc dọn sạch sẽ trước khi dọn vào ở. Hỗ trợ vứt rác thô.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800">Bảng Giá Dịch Vụ</h2>
+                <p class="text-gray-500 mt-2">Giá tham khảo (Đã bao gồm thuế và phí đi lại tại Saitama)</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="border border-gray-200 rounded-2xl p-8 text-center hover:border-blue-500 transition relative">
+                    <h3 class="text-xl font-bold text-gray-700 mb-4">Theo Giờ (Trial)</h3>
+                    <div class="text-4xl font-bold text-blue-600 mb-2">¥3,000<span class="text-sm text-gray-400 font-normal">/giờ</span></div>
+                    <p class="text-sm text-gray-500 mb-6">Tối thiểu 2 giờ</p>
+                    <ul class="text-left space-y-3 mb-8 text-sm text-gray-600">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Dọn dẹp cơ bản</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Linh hoạt công việc theo yêu cầu</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Không cần ký hợp đồng dài hạn</li>
+                    </ul>
+                    <a href="#contact" class="block w-full py-3 border border-blue-600 text-blue-600 font-bold rounded-lg hover:bg-blue-50 transition">Chọn Gói Này</a>
+                </div>
+
+                <div class="border-2 border-blue-600 rounded-2xl p-8 text-center shadow-xl relative transform md:-translate-y-4 bg-white">
+                    <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-bold">Phổ Biến Nhất</div>
+                    <h3 class="text-xl font-bold text-gray-700 mb-4">Gói Diện Tích (1R - 1LDK)</h3>
+                    <div class="text-4xl font-bold text-blue-600 mb-2">¥15,000<span class="text-sm text-gray-400 font-normal">/lần</span></div>
+                    <p class="text-sm text-gray-500 mb-6">Dành cho căn hộ 20-40m²</p>
+                    <ul class="text-left space-y-3 mb-8 text-sm text-gray-600">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Vệ sinh toàn bộ sàn nhà</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Cọ rửa Toilet & Nhà tắm kỹ lưỡng</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Lau chùi khu vực bếp (Kitchen)</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Lau cửa kính & Ban công</li>
+                    </ul>
+                    <a href="#contact" class="block w-full py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition">Đặt Lịch Ngay</a>
+                </div>
+
+                <div class="border border-gray-200 rounded-2xl p-8 text-center hover:border-blue-500 transition">
+                    <h3 class="text-xl font-bold text-gray-700 mb-4">Gói Gia Đình (2LDK+)</h3>
+                    <div class="text-4xl font-bold text-blue-600 mb-2">¥25,000<span class="text-sm text-gray-400 font-normal">/lần</span></div>
+                    <p class="text-sm text-gray-500 mb-6">Dành cho căn hộ >50m²</p>
+                    <ul class="text-left space-y-3 mb-8 text-sm text-gray-600">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Bao gồm tất cả mục gói 1LDK</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Vệ sinh thêm các phòng ngủ</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Sắp xếp đồ đạc gọn gàng</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Hỗ trợ phân loại rác</li>
+                    </ul>
+                    <a href="#contact" class="block w-full py-3 border border-blue-600 text-blue-600 font-bold rounded-lg hover:bg-blue-50 transition">Chọn Gói Này</a>
+                </div>
+            </div>
+            <div class="mt-8 text-center text-gray-500 text-sm">
+                * Giá trên chưa bao gồm phí đỗ xe (nếu khu vực không có bãi đỗ xe miễn phí).
+            </div>
+        </div>
+    </section>
+
+    <section id="area" class="py-16 bg-blue-50">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">Khu Vực Phục Vụ</h2>
+            <p class="text-gray-600 mb-8">Chúng tôi phục vụ chủ yếu tại tỉnh Saitama và một phần Tokyo.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="px-6 py-2 bg-white rounded-full shadow text-blue-700 font-medium">Saitama-shi (Omiya, Urawa)</span>
+                <span class="px-6 py-2 bg-white rounded-full shadow text-blue-700 font-medium">Kawaguchi-shi</span>
+                <span class="px-6 py-2 bg-white rounded-full shadow text-blue-700 font-medium">Toda-shi</span>
+                <span class="px-6 py-2 bg-white rounded-full shadow text-blue-700 font-medium">Warabi-shi</span>
+                <span class="px-6 py-2 bg-white rounded-full shadow text-blue-700 font-medium">Soka-shi</span>
+                <span class="px-6 py-2 bg-white rounded-full shadow text-blue-700 font-medium">Itabashi-ku (Tokyo)</span>
+                <span class="px-6 py-2 bg-white rounded-full shadow text-blue-700 font-medium">Kita-ku (Tokyo)</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="bg-blue-600 rounded-2xl shadow-xl overflow-hidden flex flex-col md:flex-row">
+                <div class="md:w-1/2 p-8 md:p-12 text-white">
+                    <h2 class="text-3xl font-bold mb-4">Liên Hệ Đặt Lịch</h2>
+                    <p class="mb-6 opacity-90">Hãy để lại thông tin, chúng tôi sẽ liên hệ lại trong vòng 30 phút để xác nhận.</p>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-phone-alt w-8"></i>
+                            <span class="font-bold text-lg">080-XXXX-XXXX</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fab fa-line w-8"></i>
+                            <span class="font-bold text-lg">ID: saitamaclean</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope w-8"></i>
+                            <span>contact@saitamaclean.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 bg-white p-8 md:p-12">
+                    <form>
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2">Họ và Tên</label>
+                            <input type="text" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500" placeholder="Nguyễn Văn A">
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2">Số điện thoại</label>
+                            <input type="tel" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500" placeholder="080-1234-5678">
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2">Địa chỉ (Khu vực)</label>
+                            <input type="text" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500" placeholder="Ví dụ: Toda-shi, Saitama">
+                        </div>
+                        <div class="mb-6">
+                            <label class="block text-gray-700 text-sm font-bold mb-2">Dịch vụ quan tâm</label>
+                            <select class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500">
+                                <option>Dọn dẹp theo giờ</option>
+                                <option>Gói 1R - 1LDK</option>
+                                <option>Gói 2LDK trở lên</option>
+                                <option>Tổng vệ sinh / Chuyển nhà</option>
+                            </select>
+                        </div>
+                        <button class="w-full bg-blue-600 text-white font-bold py-3 rounded hover:bg-blue-700 transition">Gửi Yêu Cầu</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8 text-center">
+        <div class="max-w-6xl mx-auto px-4">
+            <p class="mb-2">© 2024 Saitama Clean Service. All Rights Reserved.</p>
+            <p class="text-gray-400 text-sm">Dịch vụ dọn dẹp chuyên nghiệp dành cho người Việt tại Nhật Bản.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
